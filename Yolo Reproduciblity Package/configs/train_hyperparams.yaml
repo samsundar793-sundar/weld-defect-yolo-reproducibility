@@ -1,0 +1,10 @@
+# Training settings shared by YOLO11n-seg and YOLO26n-seg
+epochs: 60
+patience: 20
+batch: 16
+imgsz: 640
+optimizer: auto  # resolved to MuSGD, lr 0.01, momentum 0.9
+close_mosaic: 10
+seeds: [0, 1, 2]
+device: 0  # Tesla T4 GPU
+framework: ultralytics==8.4.131

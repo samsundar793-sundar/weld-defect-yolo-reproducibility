@@ -1,0 +1,12 @@
+# Dataset configuration for YOLO11-seg and YOLO26-seg
+path: ./dataset_v2  # dataset root
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 4
+names:
+  0: Crack
+  1: Porosity
+  2: Spatters
+  3: Welding line
